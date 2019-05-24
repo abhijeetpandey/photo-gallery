@@ -46,7 +46,7 @@ __GET__ `/api/photos/{photo_id}` Read one photo having id=*photo_id*
 
 __POST__ `/api/photos/create` Create Photo (Album id is required)
 
-__DELETE__ `/api/photos/delete/{photo_id}` Delete Photo having id=*photo_id*
+__POST__ `/api/photos/delete/{photo_id}` Delete Photo having id=*photo_id*
 
 ## Authentication
 
