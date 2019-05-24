@@ -6,41 +6,41 @@ I have developed this api using XAMPP Apache server and this files were inside h
 The SQL file for table structure and data in also added.
 
 ## Api endpoints
-### User
 
+### User
 
 __GET__ `/api/users` Read all users
 
-__GET__ `/api/users/{user_id}` Read one user having id=user_id
+__GET__ `/api/users/{user_id}` Read one user having id=*user_id*
 
-__GET__ `/api/users/{username}` Read one user having username=username
+__GET__ `/api/users/{username}` Read one user having username=*username*
 
 __POST__ `/api/users/create` Create user
 
-__POST__ `/api/users/delete/{user_id}` Delete user having id=user_id
+__POST__ `/api/users/delete/{user_id}` Delete user having id=*user_id*
 
-__POST__ `/api/users/update/{user_id}` Update user having id=user_id
+__POST__ `/api/users/update/{user_id}` Update user having id=*user_id*
 
 
 ### Album
 
 __GET__ `/api/albums` Read all albums
 
-__GET__ `/api/albums/{album_id}` Read one album having id=album_id
+__GET__ `/api/albums/{album_id}` Read one album having id=*album_id*
 
-__GET__ `/api/albums/user/{username}` Read one album having username=username
+__GET__ `/api/albums/user/{username}` Read one album having username=*username*
 
 __POST__ `/api/albums/create` Create Album (User id is required)
 
-__POST__ `/api/albums/delete/{album_id}` Delete Album having id=album_id
+__POST__ `/api/albums/delete/{album_id}` Delete Album having id=*album_id*
 
-__POST__ `/api/albums/update/{album_id}` Update Album having id=album_id
+__POST__ `/api/albums/update/{album_id}` Update Album having id=*album_id*
 
 ### Photo
 
-__GET__ `/api/photos/{photo_id}` Read one photo having id={photo_id}
+__GET__ `/api/photos/{photo_id}` Read one photo having id=*photo_id*
 
 __POST__ `/api/photos/create` Create Photo (Album id is required)
 
-__DELETE__ `/api/photos/delete/{photo_id}` Delete Photo having id=photo_id
+__DELETE__ `/api/photos/delete/{photo_id}` Delete Photo having id=*photo_id*
 
