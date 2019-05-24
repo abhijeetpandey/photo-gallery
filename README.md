@@ -9,38 +9,38 @@ The SQL file for table structure and data in also added.
 ### User
 
 
-GET `/api/users` Read all users
+__GET__ `/api/users` Read all users
 
-GET `/api/users/{user_id}` Read one user having id=user_id
+__GET__ `/api/users/{user_id}` Read one user having id=user_id
 
-GET `/api/users/{username}` Read one user having username=username
+__GET__ `/api/users/{username}` Read one user having username=username
 
-POST `/api/users/create` Create user
+__POST__ `/api/users/create` Create user
 
-POST `/api/users/delete/{user_id}` Delete user having id=user_id
+__POST__ `/api/users/delete/{user_id}` Delete user having id=user_id
 
-POST `/api/users/update/{user_id}` Update user having id=user_id
+__POST__ `/api/users/update/{user_id}` Update user having id=user_id
 
 
 ### Album
 
-GET `/api/albums` Read all albums
+__GET__ `/api/albums` Read all albums
 
-GET `/api/albums/{album_id}` Read one album having id=album_id
+__GET__ `/api/albums/{album_id}` Read one album having id=album_id
 
-GET `/api/albums/user/{username}` Read one album having username=username
+__GET__ `/api/albums/user/{username}` Read one album having username=username
 
-POST `/api/albums/create` Create Album (User id is required)
+__POST__ `/api/albums/create` Create Album (User id is required)
 
-POST `/api/albums/delete/{album_id}` Delete Album having id=album_id
+__POST__ `/api/albums/delete/{album_id}` Delete Album having id=album_id
 
-POST `/api/albums/update/{album_id}` Update Album having id=album_id
+__POST__ `/api/albums/update/{album_id}` Update Album having id=album_id
 
 ### Photo
 
-GET `/api/photos/{photo_id}` Read one photo having id={photo_id}
+__GET__ `/api/photos/{photo_id}` Read one photo having id={photo_id}
 
-POST `/api/photos/create` Create Photo (Album id is required)
+__POST__ `/api/photos/create` Create Photo (Album id is required)
 
-DELETE `/api/photos/delete/{photo_id}` Delete Photo having id=photo_id
+__DELETE__ `/api/photos/delete/{photo_id}` Delete Photo having id=photo_id
 
