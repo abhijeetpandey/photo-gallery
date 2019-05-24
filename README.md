@@ -7,6 +7,10 @@ The SQL file for table structure and data in also added.
 
 ## Api endpoints
 
+### Login
+
+__POST__ `/api/login` Login user.
+
 ### User
 
 __GET__ `/api/users` Read all users
@@ -15,7 +19,7 @@ __GET__ `/api/users/{user_id}` Read one user having id=*user_id*
 
 __GET__ `/api/users/{username}` Read one user having username=*username*
 
-__POST__ `/api/users/create` Create user
+__POST__ `/api/users/create` Create user (Register User)
 
 __POST__ `/api/users/delete/{user_id}` Delete user having id=*user_id*
 
@@ -43,4 +47,10 @@ __GET__ `/api/photos/{photo_id}` Read one photo having id=*photo_id*
 __POST__ `/api/photos/create` Create Photo (Album id is required)
 
 __DELETE__ `/api/photos/delete/{photo_id}` Delete Photo having id=*photo_id*
+
+## Authentication
+
+User Authentication is Json Web Token based. For API endpoints requiring authorization the `api/login` call must be made first with proper credentials. A Token is then generated. All further requests must contain __authorization__ header with the token.
+
+
 
