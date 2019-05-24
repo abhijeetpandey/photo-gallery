@@ -1,6 +1,6 @@
 # photo-gallery
 
-This is a RESTful api created in php for the [Photo Gallery](https://github.com/justani/photo-gallery-frontend/) app.
+This is a RESTful api created in PHP and MYSQL for the [Photo Gallery](https://github.com/justani/photo-gallery-frontend/) app.
 
 I have developed this api using XAMPP Apache server and this files were inside htdocs folder in XAMPP.
 The SQL file for table structure and data in also added.
