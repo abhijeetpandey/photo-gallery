@@ -25,14 +25,22 @@ POST /api/users/update/{user_id} Update user having id=user_id
 ### Album
 
 GET /api/albums Read all albums
+
 GET /api/albums/{album_id} Read one album having id=album_id
+
 GET /api/albums/user/{username} Read one album having username=username
+
 POST /api/albums/create Create Album (User id is required)
+
 POST /api/albums/delete/{album_id} Delete Album having id=album_id
+
 POST /api/albums/update/{album_id} Update Album having id=album_id
 
 ### Photo
 
 GET /api/photos/{photo_id} Read one photo having id={photo_id}
+
 POST /api/photos/create Create Photo (Album id is required)
+
 DELETE /api/photos/delete/{photo_id} Delete Photo having id=photo_id
+
