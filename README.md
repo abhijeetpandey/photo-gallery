@@ -8,12 +8,15 @@ The SQL file for table structure and data in also added.
 ## Api endpoints
 ### User
 
+
 GET /api/users Read all users
+
 GET /api/users/{user_id} Read one user having id=user_id
 GET /api/users/{username} Read one user having username=username
 POST /api/users/create Create user
 POST /api/users/delete/{user_id} Delete user having id=user_id
 POST /api/users/update/{user_id} Update user having id=user_id
+
 
 ### Album
 
